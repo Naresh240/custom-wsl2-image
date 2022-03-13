@@ -5,6 +5,6 @@ RUN apt-get update -yq && \
     curl -fsSL https://get.docker.com -o get-docker.sh && \
     sh get-docker.sh && \
     curl -s "https://get.sdkman.io" | bash
-COPY ./tools.sh tools.sh
-RUN chmod +x tools.sh
-RUN sudo /bin/bash -c ./tools.sh
+# COPY ./tools.sh tools.sh
+# RUN chmod +x tools.sh
+# RUN sudo /bin/bash -c ./tools.sh
